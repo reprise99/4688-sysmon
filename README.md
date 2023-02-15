@@ -18,6 +18,8 @@ This is especially relevant with adversaries living off the land using legitimat
 
 You can enable command line process auditing via [group policy](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/component-updates/command-line-process-auditing). Like any changes, it should be tested before being deployed widely.
 
+You can also enable it via [Intune](https://www.wpninjas.ch/2020/01/configure-windows-10-auditing-with-intune/)
+
 ## I don't have a SIEM, or it would cost too much money to ingest these events, is this still valuable?
 
 Yes! Although it would be best to send logging data to a SIEM, it isn't a requirement. Even if you store command line process events locally on your devices it is a valuable forensic artifact. In the event of an incident, the logs can be retrieved from any devices of interest and analyzed by your incident response and forensic teams. It is recommended you configure your devices to store enough logging data locally to give you a useful amount of historical data needed during an incident.
