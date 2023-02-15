@@ -72,9 +72,9 @@ This example shows Sysmon installed manually using an .xml config file.
 
 It doesn't need to be, there are plenty of example .xml files available that have been created by community members and shared publicly.
 
-- SwiftOnSecurity(https://github.com/SwiftOnSecurity/sysmon-config)
-- Olaf Hartong(https://github.com/olafhartong/sysmon-modular)
-- Florian Roth(https://github.com/Neo23x0/sysmon-config)
+- [SwiftOnSecurity](https://github.com/SwiftOnSecurity/sysmon-config)
+- [Olaf Hartong](https://github.com/olafhartong/sysmon-modular)
+- [Florian Roth](https://github.com/Neo23x0/sysmon-config)
 
 It is recommended to test these configurations in your environment before deploying widely to ensure they are compatible and understand the overhead on your devices. You may need to exclude tooling specific to your environment to reduce noise.
 
