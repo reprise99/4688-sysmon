@@ -40,15 +40,15 @@ Enabling command line process auditing can expose sensitive information, such as
 
 ## Resources
 
-[Microsoft Learn - Command line process auditing](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/component-updates/command-line-process-auditing)
+[Command line process auditing - Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/component-updates/command-line-process-auditing)
 
-[Defense Against the Lateral Arts: Detecting and Preventing Impacket’s Wmiexec](https://www.crowdstrike.com/blog/how-to-detect-and-prevent-impackets-wmiexec/)
+[Defense Against the Lateral Arts: Detecting and Preventing Impacket’s Wmiexec - CrowdStrike](https://www.crowdstrike.com/blog/how-to-detect-and-prevent-impackets-wmiexec/)
 
-[Defense Against the Lateral Arts: Detecting and Preventing Impacket’s Wmiexec](https://www.13cubed.com/downloads/impacket_exec_commands_cheat_sheet.pdf)
+[Impacket Cheat Sheet - 13 Cubed](https://www.13cubed.com/downloads/impacket_exec_commands_cheat_sheet.pdf)
 
-[Wanted: Process Command Lines](https://www.trustedsec.com/blog/wanted-process-command-lines/)
+[Wanted: Process Command Lines - TrustedSec](https://www.trustedsec.com/blog/wanted-process-command-lines/)
 
-[Windows Event Logging and Forwarding](https://www.cyber.gov.au/acsc/view-all-content/publications/windows-event-logging-and-forwarding)
+[Windows Event Logging and Forwarding - ACSC](https://www.cyber.gov.au/acsc/view-all-content/publications/windows-event-logging-and-forwarding)
 
 # Sysmon
 
@@ -109,7 +109,7 @@ Florian Roth has provided an [example of a blocking config](https://github.com/N
 
 ## Resources
 
-[Microsoft Learn - Sysmon](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon)
+[Sysmon - Microsoft Learn](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon)
 
 [Florian Roth's Sysmon Configs](https://github.com/Neo23x0/sysmon-config)
 
@@ -117,7 +117,7 @@ Florian Roth has provided an [example of a blocking config](https://github.com/N
 
 [Olaf Hartong's Sysmon Configs](https://github.com/olafhartong/sysmon-modular)
 
-[Deploy Sysmon and collect additional data with Sentinel and the AMA agent](https://jeffreyappel.nl/deploy-sysmon-and-collect-data-with-sentinel-and-the-ama-agent/)
+[Deploy Sysmon and collect additional data with Sentinel and the AMA agent - Jeffrey Appel](https://jeffreyappel.nl/deploy-sysmon-and-collect-data-with-sentinel-and-the-ama-agent/)
 
 
 
