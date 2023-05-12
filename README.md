@@ -33,6 +33,8 @@ Yes! Although process auditing is a key component of EDR products, it is still v
 - EDR products have different capabilities, which can change over time. Having auditing enabled on your devices separately gives you consistentcy to your available forensic data
 - You may change your EDR product over time. Having auditing enabled on your devices separately gives you consistentcy to your available forensic data
 - Some devices may be in airgapped networks or locations where the internet is not always available, so they aren't consistently sending data to your EDR
+- Your EDR may have a low retention period so older data may not be available during an investigation. Configuring enough disk space for longer on disk retention may give you access to older logs. (Thank you to [Ali](https://twitter.com/ali_alwashali) for this point)
+- EDR vendors may filter or only collect a sample of certain data in order to balance the detection capability with the performance of their product. Having auditing enabled will capture all process creation events. (Thank you to [Ali](https://twitter.com/ali_alwashali) for this point)
 
 ## Are there any downsides?
 
