@@ -100,6 +100,8 @@ Yes! As mentioned above, even though there is functionality cross over between E
 - You may change your EDR product over time. Having Sysmon enabled on your devices separately gives you consistentcy to your available forensic data
 - Some devices may be in airgapped networks or locations where the internet is not always available, so they aren't consistently sending data to your EDR
 - Using an EDR you are at the mercy of what the vendor whats to log and alert on. While most EDR's are constantly updated with new alerts and detections, maintaining Sysmon is still valuable
+- Your EDR may have a short retention period so older data may not be available during an investigation. Configuring enough disk space for longer on disk retention may give you access to older logs. (Thank you to [Ali](https://twitter.com/ali_alwashali) for this point)
+- EDR vendors may filter or only collect a sample of certain data in order to balance the detection capability with the performance of their product. Having auditing enabled will capture all process creation events. (Thank you to [Ali](https://twitter.com/ali_alwashali) for this point)
 
 Some customers choose to augment their EDR with Sysmon to reduce the cross over. Sysmon is not a replacement for your EDR or standard Windows event logs, it is a designed to compliment those.
 
